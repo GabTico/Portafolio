@@ -1,0 +1,298 @@
+.App {
+  height: 100%;
+}
+
+body{
+  padding: 0%;
+  background-image: url(./assets/fondoproy.jpg);
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.About {
+  padding: 8%;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.My-name {
+  padding: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+}
+
+
+
+.h2 {
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  font-family: "Didact Gothic", sans-serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+}
+
+.h3 {
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+}
+.p1 {
+  padding: 1%;
+}
+
+.h4 {
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+}
+
+.Li2 {
+  padding: 1%;
+}
+
+.h5 {
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+}
+
+.h6 {
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+}
+
+.Proyect {
+  background-color: rgb(99, 106, 192);
+  padding: 0%;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+  flex-wrap: wrap;
+}
+
+.Proyecto4 {
+  width: 50%;
+  height: 19%;
+  padding: 3%;
+}
+
+.Gaby {
+  width: 30%;
+  height: 50%;
+}
+
+.Proyecto1 {
+  width: 50%;
+  height: 19%;
+  padding: 3%;
+}
+
+.Proyecto2 {
+  width: 50%;
+  height: 19%;
+  padding: 3%;
+}
+
+.Proyecto3 {
+  width: 50%;
+  height: 19%;
+  padding: 3%;
+}
+
+.Proyecto5 {
+  width: 50%;
+  height: 19%;
+  padding: 3%;
+}
+
+.Contact {
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  color: aliceblue;
+  text-decoration: underline;
+  text-shadow: 3px 3px 0 blue;
+  height: 100%;
+   
+}
+
+div.container {
+  align-content: center;
+}
+
+.Contact-icon {
+  padding: 2rem;
+  height: 12rem;
+}
+
+.cards-generate.cards-generate {
+  display: grid;
+  padding-top: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  place-items: center;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.fondohome {
+  background-image: url(./img/fondoproy.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center, center;
+  text-align: center;
+  height: 100%;
+}
+
+.pdf {
+  width: 14%;
+  height: 10%;
+  padding: 3%;
+}
+
+.perfil2 {
+  padding: 3%;
+  width: 100%;
+  height: 80%;
+}
+
+.Biografia {
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+  align-items: center;
+}
+
+.icono {
+  height: 5rem;
+  width: 15px;
+}
+
+.elemen.style {
+  height: 100%;
+}
+
+.Skills{
+width: 100%;
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.skills-icon{
+   width: 8rem;
+   padding: 2rem;
+}
+
+.Formulario{
+display:flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: medium;
+font-family: "Didact Gothic", sans-serif;
+color: black;
+text-shadow: none;
+}
+
+.emoticon{
+  height: 70px;
+  width: 70px;
+}
+
+.habilidad{
+  height: 70px;
+  width: 70px;
+  color: grey;
+}
+
+.herramientas1{
+  height: 90px;
+  width: 90px;
+  color: purple;
+}
+
+.mouse{
+  height: 90px;
+  width: 90px;
+  color: deeppink;
+  
+}
+
+.chair{
+  height: 70px;
+  width: 70px;
+  color: greenyellow;
+}
+
+.arrow{
+  height: 30px;
+  color: aliceblue;
+
+}
